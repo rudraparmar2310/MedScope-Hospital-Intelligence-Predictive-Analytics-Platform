@@ -1,6 +1,8 @@
 # MedScope — Hospital Intelligence & Predictive Analytics Platform
 
 MedScope is an end-to-end, production-style healthcare intelligence and predictive decision-support platform. It ingests historical patient encounters, validates and statistically analyzes them, trains and explains a readmission-risk classification model, collects supplementary public healthcare data through a Scrapy-based ingestion pipeline, and serves everything through a FastAPI backend and a multi-page React dashboard.
+<img width="1536" height="1024" alt="medscope_" src="https://github.com/user-attachments/assets/6e6b782e-e1b9-4fe2-ba02-bdd19a69055a" />
+
 
 ---
 
