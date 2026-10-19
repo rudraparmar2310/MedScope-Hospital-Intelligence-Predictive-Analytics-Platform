@@ -170,10 +170,11 @@ Open http://localhost:5173 in your browser to interact with the dashboard.
 
 ---
 
-## 🌐 External Data Ingestion Pipeline
+<img width="1692" height="603" alt="image" src="https://github.com/user-attachments/assets/1176b4bf-6bf6-4af4-9542-f3ac3cbed70a" />
+
 <img width="1653" height="542" alt="image" src="https://github.com/user-attachments/assets/ea7e4eb3-ffb4-4280-83e5-c206b7638798" />
 
-
+## 🌐 External Data Ingestion Pipeline
 MedScope includes a standalone, production-style ingestion pipeline (`src/ingestion/`) built on **Scrapy**
 that pulls **public, non-authenticated, non-sensitive** healthcare-related data from the web and loads it
 into its own `external` PostgreSQL schema — completely separate from the `core.*` tables that back the
