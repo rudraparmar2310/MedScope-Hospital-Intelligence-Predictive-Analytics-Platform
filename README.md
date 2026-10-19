@@ -2,6 +2,7 @@
 
 MedScope is an end-to-end, production-style healthcare intelligence and predictive decision-support platform. It ingests historical patient encounters, validates and statistically analyzes them, trains and explains a readmission-risk classification model, collects supplementary public healthcare data through a Scrapy-based ingestion pipeline, and serves everything through a FastAPI backend and a multi-page React dashboard.
 <img width="1536" height="1024" alt="medscope_" src="https://github.com/user-attachments/assets/6e6b782e-e1b9-4fe2-ba02-bdd19a69055a" />
+<img width="1901" height="903" alt="Screenshot 2026-10-19 131758" src="https://github.com/user-attachments/assets/6ef197b1-4810-4ff4-a339-630688244bb5" />
 
 
 ---
@@ -84,6 +85,7 @@ Four classifiers were trained on the same feature set and compared on the tempor
 *   **Statistical grounding**: Readmitted patients stay 10.25 days on average vs. 6.39 days for non-readmitted patients — a statistically significant difference (T-test, p < 0.0001) — validated before being used as a model feature.
 
 For complete hyperparameter details, see the **[Model Card](docs/model_card.md)**, **[SHAP Summary Plot](docs/shap_summary.png)**, and **[Statistics Report](docs/statistics_report.md)**.
+
 
 ---
 
@@ -169,6 +171,8 @@ Open http://localhost:5173 in your browser to interact with the dashboard.
 ---
 
 ## 🌐 External Data Ingestion Pipeline
+<img width="1653" height="542" alt="image" src="https://github.com/user-attachments/assets/ea7e4eb3-ffb4-4280-83e5-c206b7638798" />
+
 
 MedScope includes a standalone, production-style ingestion pipeline (`src/ingestion/`) built on **Scrapy**
 that pulls **public, non-authenticated, non-sensitive** healthcare-related data from the web and loads it
